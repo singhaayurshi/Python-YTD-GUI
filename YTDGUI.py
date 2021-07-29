@@ -15,7 +15,7 @@ os.system('cls')
 
 
 root = Tk()
-root.title("IU-YTD")
+root.title("Python-YTD")
 root.geometry('300x240')  
 root.resizable(False, False)
 photo = PhotoImage(file = "youtube.png")
@@ -129,7 +129,7 @@ def Download():
 
 # GUI
 
-author = Label(text = "Author : ShikaTema", background=tcolor, foreground=fcolor, font=("Verdana Bold",15))
+author = Label(text = "Author : Singh Aayurshi", background=tcolor, foreground=fcolor, font=("Verdana Bold",15))
 author.grid(pady=10)
 
 label = Label(root, text="URL", background=tcolor, foreground="dark orange", font=("Trebuchet MS bold",10))
